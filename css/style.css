@@ -24,3 +24,34 @@ p.truncar-3l {
         margin-top: 1rem;
     }
 }
+
+label .text-dark {
+    transition: color 0.2s ease;
+}
+
+.btn-check:checked+.btn-outline-danger .text-dark,
+.btn-check:active+.btn-outline-danger .text-dark,
+.btn-check:hover+.btn-outline-danger .text-dark {
+    transition: color 0.2s ease;
+    color: white !important;
+}
+
+.btn-outline-danger:hover {
+    background-color: #e26572 !important;
+}
+ 
+.btn-check:checked+.btn-outline-danger {
+    background-color: #dc3545 !important;
+}
+
+/* .btn-check:checked+.btn-outline-danger .txt, */
+/* .btn-check:active+.btn-outline-danger .txt, */
+.btn-check:hover+.btn-outline-danger .txt {
+    transition: color 0.2s ease;
+    color: white !important;
+}
+
+.flex-even {
+    flex: 1;
+    min-width: 300px;
+}
